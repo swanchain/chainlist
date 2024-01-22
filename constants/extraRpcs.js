@@ -4138,6 +4138,9 @@ export const extraRpcs = {
   },
 217: {
   rpcs:["https://rpc2.siriusnet.io"]
+},
+2024: {
+  rpcs:["https://saturn-rpc.swanchain.io/"]
 }
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
